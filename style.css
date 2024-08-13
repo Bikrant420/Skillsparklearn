@@ -1,0 +1,112 @@
+#para{
+    color: red;
+    font-size: 20px;
+    font-family: arial,sans-serif;
+    font-weight: bold;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    font-size: gilroy;
+}
+
+
+.container{
+    width: 100%;
+    background-color: blue;
+}
+
+
+
+itembox1{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: green;
+    line-height: 100px;
+}
+
+
+itembox1{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: black;
+    line-height: 100px;
+}
+
+itembox1{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: brown;
+    line-height: 100px;
+}
+
+
+.box1,.box3{
+    background-color: blue;
+}
+
+
+.box2,.box4{
+    background-color:beige ;
+}
+
+
+.box:hover,.box3:hover{
+background-color:red;
+cursor: pointer;
+}
+
+
+input:focus{
+    background-color: green;
+}
+
+div h1{
+    background-color: orange;
+    color: white;
+    }
+.main-div > h1{
+    background-color: blue;
+    color: white;
+}
+
+h1  + h2 {
+    background-color: aqua;
+    color: azure;
+}
+#button{
+    background-image: url("https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-169994-674010.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: beige;
+    cursor: pointer;
+    padding: 30px  40px;
+    margin:20px   10px;
+}
+.btn{
+    background-color: white;
+    padding: 5px 15px;
+    color: brown;
+    font-size: 24px;
+    margin: 0px  10px;
+    border-style: solid;
+    border-width: 15px;
+    border: 2px  solid rgb(255,95,3);
+    border-radius: 25%;
+    
+}
+.btn:hover{
+    background-color: pink;
+}
+.box {
+    width: 50%;
+    max-width: 400;
+    background-color: blue;
+    padding: 20px;
+    padding: 10px auto;
+    text-align: center;
+}

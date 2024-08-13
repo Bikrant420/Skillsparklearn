@@ -1,0 +1,31 @@
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combining Animations</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: purple;
+            animation: slide 4s infinite, fade 2s infinite;
+        }
+
+        @keyframes slide {
+            0%, 100% { transform: translateX(0); }
+            50% { transform: translateX(200px); }
+        }
+
+        @keyframes fade {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
